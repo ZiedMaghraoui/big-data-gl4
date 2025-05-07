@@ -9,7 +9,7 @@ copy resulting jar to container
     docker cp target\earthquake-batch-1.0-SNAPSHOT.jar hadoop-master:/root/earthquake-summary.jar
 start hadoop (if not running)
 
-    ./start-hadoop
+    ./start-hadoop.sh
 load the batch dataset to hdfs
 
     hdfs dfs -mkdir -p input
